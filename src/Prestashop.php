@@ -90,6 +90,8 @@ class Prestashop
         '|',
         ',',
         '=',
+        '=<',
+        '=>',
         'OR',
         'INTERVAL',
         'LITERAL',
