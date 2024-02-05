@@ -5,8 +5,7 @@
         "jaaak15",
         "laravel",
         "laravel-prestashop"
-    ],
-    "homepage": "https://github.com/lucasgiovanny/laravel-prestashop",
+    ],   
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +16,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "illuminate/contracts": "^8.37|^9.0|10.0",
+        "illuminate/contracts": "^8.37|^9.0|^10.0",
         "spatie/laravel-package-tools": "^1.4.3"
     },
     "require-dev": {
