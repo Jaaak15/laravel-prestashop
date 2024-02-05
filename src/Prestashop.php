@@ -544,6 +544,14 @@ class Prestashop
                     $value = "%[" . $filter['value'] . "]%";
                 }
 
+                if ($filter['operator'] === "=>") {
+                    $value = ">[" . $filter['value'] . "]";
+                }
+
+                if ($filter['operator'] === "=<") {
+                    $value = "<[" . $filter['value'] . "]";
+                }
+
                 $query["filter[" . $filter['field'] . "]"] = $value;
 
                 if(Str::contains($filter['field'], 'date')){
