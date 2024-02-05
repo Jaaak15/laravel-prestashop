@@ -1,8 +1,8 @@
 {
-    "name": "lucasgiovanny/laravel-prestashop",
+    "name": "jaaak15/laravel-prestashop",
     "description": "Package for use PrestaShop Webservice on Laravel.",
     "keywords": [
-        "lucasgiovanny",
+        "jaaak15",
         "laravel",
         "laravel-prestashop"
     ],
@@ -10,8 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Lucas Giovanny",
-            "email": "lucasgiovanny@gmail.com",
+            "name": "jaaak15",           
             "role": "Developer"
         }
     ],
